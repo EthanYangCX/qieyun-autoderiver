@@ -99,6 +99,7 @@ function copyFallback(txt: string) {
 }
 
 export const schemas = {
+  ttomni: "OQeVD8FA",
   tupa: "切韻拼音",
   baxter: "白一平轉寫",
   blankego: "有女羅馬字",
@@ -158,7 +159,7 @@ export function fetchFile(input: string, callback: (text: string) => void) {
 }
 
 function schemaCopy(): SchemaState {
-  return { name: "tupa", input: "", original: "", settings: new 推導選項(), id: +new Date() };
+  return { name: "ttomni", input: "", original: "", settings: new 推導選項(), id: +new Date() };
 }
 
 export function joinWithBr(array: (string | JSX.Element)[]) {
