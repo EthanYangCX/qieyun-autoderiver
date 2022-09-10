@@ -57,7 +57,10 @@ function App() {
       <header>
         <nav>
           <h1>
-            <span onClick={showAbout}>切韻音系自動推導器</span>
+            <span onClick={showAbout}>
+              cam FH3 OQeV X8ae3 98e3 D8FZ2 moe D8RF3 AQe3 <br/>
+              切韻音系自動推導器
+              </span>
           </h1>
         </nav>
         <a href="https://graphemecluster.github.io/qieyun-autoderiver">試用 v0.2 beta 版</a>
