@@ -91,7 +91,7 @@ class SchemaEditor extends React.Component<SchemaProps, any> {
     if (event) event.preventDefault();
     // TODO restore after new qieyun-examples deployment
     //fetchFile(`https://nk2028-1305783649.file.myqcloud.com/qieyun-examples/${this.props.name}.js`, input => {
-    let addr = this.props.name == 'ttomni' ?  
+    let addr = this.props.name === 'ttomni' ?  
         'https://raw.githubusercontent.com/EthanYangCX/world-building/main/OQeVD8FA.js' :
         `https://cdn.jsdelivr.net/gh/nk2028/qieyun-examples@main/${this.props.name}.js`;
     fetchFile(addr, input => {
