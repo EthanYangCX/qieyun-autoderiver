@@ -99,7 +99,7 @@ function copyFallback(txt: string) {
 }
 
 export const schemas = {
-  ttomni: "OQeVD8FA",
+  ttomni: "OQeVD8nA",
   tupa: "切韻拼音",
   baxter: "白一平轉寫",
   blankego: "有女羅馬字",
