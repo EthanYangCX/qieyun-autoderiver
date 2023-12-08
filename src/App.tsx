@@ -58,7 +58,7 @@ function App() {
         <nav>
           <h1>
             <span onClick={showAbout}>
-              7aL nH3 OQeV X8ae3 98e3 D8nZ2 Loe D8rn3 AQe3 <br />
+              Tset Uï̀n 'Řim Xħèi Dsħì Dħúň Tuëi Dħàu Křì <br />
               切韻音系自動推導器
             </span>
           </h1>
