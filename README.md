@@ -1,6 +1,6 @@
 （fork过来主要是实验一些更改以及方便直接用自己的实验方案）
 
-https://twaqngu.github.io/qieyun-autoderiver/
+https://qieyun-autoderiver.twaqngu.com/
 
 # qieyun-autoderiver
 
