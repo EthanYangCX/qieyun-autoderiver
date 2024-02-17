@@ -1,6 +1,6 @@
 （fork过来主要是实验一些更改以及方便直接用自己的实验方案）
 
-https://qieyun-autoderiver.twaqngu.com/
+https://qieyun-autoderiver.pustot.com/
 
 # qieyun-autoderiver
 
