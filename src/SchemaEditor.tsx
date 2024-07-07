@@ -95,6 +95,8 @@ class SchemaEditor extends React.Component<SchemaProps, any> {
       this.props.name === "ttomni"
         ? "https://raw.githubusercontent.com/pustot/world-building/main/OQeVD8nA.js"
         : `https://cdn.jsdelivr.net/gh/nk2028/qieyun-examples@main/${this.props.name}.js`;
+    if (this.props.name === "tupa_marks")
+      addr = "https://raw.githubusercontent.com/pustot/world-building/main/tupa-marks.js";
     fetchFile(addr, input => {
       if (event && this.props.input && this.props.input !== this.props.original) {
         Swal.fire({

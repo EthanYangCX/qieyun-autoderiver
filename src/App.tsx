@@ -58,8 +58,8 @@ function App() {
         <nav>
           <h1>
             <span onClick={showAbout}>
-              Tset Uï̀n 'Řim Xħèi Dsħì Dħúň Tuëi Dħàu Křì <br />
-              切韻音系自動推導器
+              tshet ùn qyim ghèj dzì dᵒúŋ thoj dàw khyì <br />
+              切韻音系自動推導器（浦司图试验fork）
             </span>
           </h1>
         </nav>

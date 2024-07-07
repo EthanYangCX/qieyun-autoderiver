@@ -99,6 +99,7 @@ function copyFallback(txt: string) {
 }
 
 export const schemas = {
+  tupa_marks: "切韻拼音（浦式附标）",
   ttomni: "OQeVD8nA",
   tupa: "切韻拼音",
   baxter: "白一平轉寫",
@@ -204,12 +205,12 @@ class Main extends React.Component<any, MainState> {
     this.state = {
       schemas: schemaNames.length
         ? schemaNames.map((name, id) => ({
-            name,
-            input: schemaInputs[id],
-            original: "",
-            settings: new 推導選項(schemaParameterLists[id]),
-            id,
-          }))
+          name,
+          input: schemaInputs[id],
+          original: "",
+          settings: new 推導選項(schemaParameterLists[id]),
+          id,
+        }))
         : [schemaCopy()],
       article: localStorage.getItem("autoderiver/0.1/article") || defaultArticle,
       option: (localStorage.getItem("autoderiver/0.1/option") as Option) || "convertArticle",
@@ -401,7 +402,7 @@ class Main extends React.Component<any, MainState> {
     }
     try {
       this.setState({ output: handles[this.state.option](), isApplied: true });
-    } catch (err) {}
+    } catch (err) { }
   }
 
   handleCopy() {
